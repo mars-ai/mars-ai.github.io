@@ -45,7 +45,10 @@ export default class Intro extends Component {
       <div className="c-intro">
         <div className="u-width-container">
           <div className="u-section-title">
-            MARS?
+            MARS
+          </div>
+          <div className="u-section-sub-title">
+            대량의 데이터(M)를 기반으로 자동적(A)으로 학습하고, 신뢰성 있는(R) 결과물을 산출하며 안전하게(S) 사용할 수 있는 인공지능을 연구합니다.
           </div>
           <div className="c-intro__cards">
             {CONTENT.map(this.renderCard)}

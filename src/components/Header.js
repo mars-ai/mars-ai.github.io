@@ -2,7 +2,7 @@ import classnames from 'classnames';
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 
-const SCROLL_THRESHOLD = 100;
+const SCROLL_THRESHOLD = 60;
 
 export default class Header extends Component {
   state = {
@@ -64,19 +64,13 @@ export default class Header extends Component {
               className="c-header__menu-item"
               to="/members"
             >
-              Members
+              Publication
             </Link>
             <Link
               className="c-header__menu-item"
               to="/research"
             >
-              Research
-            </Link>
-            <Link
-              className="c-header__menu-item"
-              to="/links"
-            >
-              Links
+              People
             </Link>
             <Link
               className="c-header__menu-item"
