@@ -1,0 +1,72 @@
+.c-member {
+  position: relative;
+  padding: 10px 0 10px 140px+12px;
+  min-height: 160px;
+
+  &__profile-image {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 140px;
+  	height: 140px;
+  }
+
+  &__body {
+    font-size: 14px;
+    color: color('dark-grey');
+    line-height: 1.5em;
+  }
+
+  &__item {
+    padding-bottom: 10px;
+  }
+
+  &__name {
+    font-size: 16px;
+    font-weight: $bold;
+    color: color('black');
+  }
+
+  &__email {
+    font-size: 12px;
+    color: color('grey');
+  }
+
+  &__item-graduate {
+    font-size: 12px;
+    color: color('grey');
+  }
+
+  &__item-research {
+
+  }
+
+  &__item-education {
+
+  }
+}
+
+@media (max-width: 768px) {
+  .c-member {
+    position: relative;
+    padding: 16px 0;
+    min-height: 0;
+
+    &__profile-image {
+      position: relative;
+      width: 140px;
+    	height: 140px;
+    }
+
+    &__body {
+      padding-top: 10px;
+      font-size: 14px;
+      color: color('dark-grey');
+      line-height: 1.5em;
+    }
+
+    &__item {
+      padding-bottom: 4px;
+    }
+  }
+}

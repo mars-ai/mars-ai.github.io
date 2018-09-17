@@ -1,0 +1,575 @@
+{
+  "topics": [
+    {
+      "id": "ml",
+      "title": "Machine Learning",
+      "tag": "ML",
+      "color": "#8acb88"
+    },
+    {
+      "id": "nlp",
+      "title": "Natural Language Processing",
+      "tag": "NLP",
+      "color": "#ffbf46"
+    },
+    {
+      "id": "css",
+      "title": "Computational Social Science",
+      "tag": "Social",
+      "color": "#b9314f"
+    },
+    {
+      "id": "edu",
+      "title": "Programming Education",
+      "tag": "Edu",
+      "color": "#6f8695"
+    }
+  ],
+  "categories": [
+    {
+      "researches": [
+        {
+          "booktitle": "To appear in Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018)",
+          "authors": "Yeon Seonwoo, Sungjoon Park, and Alice Oh",
+          "title": "Hierarchical Dirichlet Gaussian Marked Hawkes Process for Narrative Reconstruction in Continuous Time Domain",
+          "links": {
+            "PDF": "#"
+          },
+          "topics": ["ml", "nlp"]
+        },
+        {
+          "booktitle": "To appear in Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018)",
+          "authors": "JinYeong Bak, and Alice Oh",
+          "title": "Conversational Decision Making Model for Predicting King’s Decision in the Annals of the Joseon Dynasty",
+          "links": {
+            "PDF": "#"
+          },
+          "topics": ["nlp", "css"]
+        },
+        {
+          "booktitle": "To appear in Proceedings of the 31th Annual ACM Symposium on User Interface Software & Technology (UIST 2018)",
+          "authors": "Jungkook Park, Yeong Hoon Park, and Alice Oh",
+          "title": "Non-Linear Editing of Text-Based Screencasts",
+          "links": {
+            "PDF": "/public/research/UIST2018/uist2018_park.pdf"
+          },
+          "topics": ["edu"]
+        },
+        {
+          "booktitle": "In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018)",
+          "authors": "Sungjoon Park, Jeongmin Byun, Sion Baek, Yongseok Cho and Alice Oh",
+          "title": "Subword-level Word Vector Representations for Korean",
+          "links": {
+            "PDF": "http://aclweb.org/anthology/P18-1226",
+            "Data": "https://github.com/SungjoonPark/KoreanWordVectors"
+          },
+          "topics": ["ml", "nlp"]
+        },
+        {
+          "booktitle": "Proceedings of the Fifth (2018) ACM Conference on Learning@Scale (L@S 2018)",
+          "authors": "Jungkook Park, Yeong Hoon Park, Jinhan Kim, Jeongmin Cha, Suin Kim, and Alice Oh",
+          "title": "Elicast: Embedding Interactive Exercises in Instructional Programming Screencasts",
+          "links": {
+            "PDF": "/public/research/LAS2018/las2018_park.pdf",
+            "Code": "https://github.com/elicast-research/elicast",
+            "Slides": "/public/research/LAS2018/las2018_park_slides.pdf",
+            "ACM DL": "https://dl.acm.org/citation.cfm?id=3231657"
+          },
+          "topics": ["edu"]
+        },
+        {
+          "booktitle": "Proceedings of the 11th ACM International Conference on Web Search and Data Mining (WSDM 2018)",
+          "authors": "Jooyeon Kim, Behzad Tabibian, Alice Oh, Bernhard Schölkopf, and Manuel Gomez Rodriguez",
+          "title": "Leveraging the Crowd to Detect and Reduce the Spread of Fake News and Misinformation",
+          "links": {
+            "PDF": "https://people.mpi-sws.org/~manuelgr/pubs/reviewers-misinformation.pdf",
+            "Code": "https://github.com/Networks-Learning/curb/",
+            "Web": "http://learning.mpi-sws.org/curb/",
+            "Slides": "/public/research/WSDM2018/1206_wsdm_leveraging_kim.pdf"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP 2017)",
+          "authors": "Sungjoon Park, JinYeong Bak, and Alice Oh",
+          "title": "Rotated Word Vector Representations and their Interpretability",
+          "links": {
+            "PDF": "http://aclweb.org/anthology/D17-1041",
+            "Poster": "https://sungjoonpark.github.io./assets/emnlp2017_poster.pdf",
+            "Source": "https://github.com/SungjoonPark/factor_rotation"
+          },
+          "topics": ["ml", "nlp"]
+        },
+        {
+          "booktitle": "Adjunct Publication of the 30th Annual ACM Symposium on User Interface Software & Technology (UIST 2017, Poster)",
+          "authors": "Jungkook Park, Yeong Hoon Park, and Alice Oh",
+          "title": "Non-Linear Editor for Text-Based Screencast",
+          "links": {
+            "PDF": "/public/research/UIST17/uist2017_editor_park_abstract.pdf",
+            "Poster": "/public/research/UIST17/uist2017_editor_park_poster.pdf",
+            "ACM DL": "https://dl.acm.org/citation.cfm?id=3131831"
+          },
+          "topics": ["edu"]
+        },
+        {
+          "booktitle": "The ACM CHI Conference on Human Factors in Computing Systems (CHI 2017, Late-Breaking Work)",
+          "authors": "Juhong Park, Suin Kim, and Alice Oh",
+          "title": "Analysis of the Effect of Competition on Player Immersion and Engagement in a Mobile Game",
+          "topics": ["ml", "css"]
+        },
+        {
+          "booktitle": "Transactions of the Association for Computational Linguistics (TACL 2017)",
+          "authors": "Jooyeon Kim, Dongwoo Kim, and Alice Oh",
+          "title": "Joint Modeling of Topics, Citations, and Topical Authority in Academic Corpora",
+          "links": {
+            "Link": "https://www.transacl.org/ojs/index.php/tacl/article/view/1061",
+            "Web": "http://web.uilab.kr/research/files/TACL2017",
+            "PDF": "/public/research/TACL17/tacl2017_kim.pdf",
+            "Slides": "/public/research/TACL17/tacl2017_kim_presentation.pdf"
+          },
+          "topics": ["ml", "nlp"]
+        },
+        {
+          "booktitle": "Companion of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW 2017, Demo)",
+          "authors": "Jungkook Park, Yeong Hoon Park, Suin Kim, and Alice Oh",
+          "title": "Eliph: Effective Visualization of Code History for Peer Assessment in Programming Education",
+          "links": {
+            "PDF": "/public/research/CSCW17/cscw2017_eliph_park_demo.pdf",
+            "ACM DL": "https://dl.acm.org/citation.cfm?id=3023266"
+          },
+          "topics": ["edu"]
+        },
+        {
+          "booktitle": "Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing (CSCW 2017)",
+          "authors": "Jungkook Park, Yeong Hoon Park, Suin Kim, and Alice Oh",
+          "title": "Eliph: Effective Visualization of Code History for Peer Assessment in Programming Education",
+          "links": {
+            "PDF": "/public/research/CSCW17/cscw2017_eliph_park.pdf",
+            "Slides": "/public/research/CSCW17/cscw2017_eliph_park_slides.pdf",
+            "ACM DL": "https://dl.acm.org/citation.cfm?id=2998285"
+          },
+          "topics": ["edu"]
+        },
+        {
+          "booktitle": "Machine Learning Journal (2017)",
+          "authors": "Dongwoo Kim, Alice Oh",
+          "title": "Hierarchical Dirichlet Scaling Process",
+          "links": {
+            "PDF": "http://link.springer.com/article/10.1007/s10994-016-5621-5"
+          },
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2016)",
+          "authors": "Joon Hee Kim, Amin Mantrach, Alejandro Jaimes, and Alice Oh",
+          "title": "How to Compete Online for News Audience: Modeling Words that Attract Clicks",
+          "links": {
+            "PDF": "/public/research/KDD2016/KDD2016_kim.pdf"
+          },
+          "topics": ["ml", "nlp"]
+        },
+        {
+          "booktitle": "PLOS ONE (2016)",
+          "authors": "Suin Kim, Sungjoon Park, Scott A. Hale, Sooyoung Kim, Jeongmin Byun, and Alice Oh",
+          "title": "Understanding Editing Behaviors in Multilingual Wikipedia",
+          "links": {
+            "Link": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0155305"
+          },
+          "topics": ["ml", "css"]
+        },
+        {
+          "booktitle": "Proceedings of the Third (2016) ACM Conference on Learning@Scale (L@S 2016)",
+          "authors": "Suin Kim, Jae Won Kim, Jungkook Park and Alice Oh",
+          "title": "Elice: An online CS Education Platform to Understand How Students Learn Programming",
+          "links": {
+            "PDF": "/public/research/LAS2016/las2016_kim_wip.pdf",
+            "Poster": "/public/research/LAS2016/las2016_poster.pdf"
+          },
+          "topics": ["edu"]
+        },
+        {
+          "booktitle": "Proceedings of the Third (2016) ACM Conference on Learning@Scale (L@S 2016)",
+          "authors": "Suin Kim, Jae Won Kim, Jungkook Park and Alice Oh",
+          "title": "Elivate: A Real-Time Assistant for Student and Lecturer on the Online CS Education Platform",
+          "links": {
+            "PDF": "/public/research/LAS2016/las2016_kim_demo.pdf"
+          },
+          "topics": ["edu"]
+        },
+        {
+          "booktitle": "The 34th Annual ACM Conference on Human Factors in Computing Systems (CHI 2016)",
+          "authors": "Jooyeon Kim, Brian Keegan, Sungjoon Park, and Alice Oh",
+          "title": "The Proficiency-Congruency Dilemma: Virtual Team Design and Performance in Multiplayer Online Games",
+          "links": {
+            "Link": "http://dl.acm.org/citation.cfm?id=2858464",
+            "Web": "/public/research/CHI2016",
+            "PDF": "/public/research/CHI2016/chi2016_kim.pdf",
+            "Slides": "/public/research/CHI2016/chi2016_kim_presentation.pdf"
+          },
+          "topics": ["css"]
+        },
+        {
+          "booktitle": "Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities at the 53rd Annual Meeting of the Association for Computational Linguistics",
+          "authors": "JinYeong Bak and Alice Oh",
+          "title": "Five Centuries of Monarchy in Korea: Mining the Text of the Annals of the Joseon Dynasty",
+          "links": {
+            "PDF": "/public/research/LaTeCH2015/LaTeCH2015_bak_oh.pdf",
+            "Slides": "/public/research/LaTeCH2015/LaTeCH2015_bak_oh_slide.pdf"
+          },
+          "topics": ["nlp"]
+        },
+        {
+          "booktitle": "in Wiki-ICWSM'15 workshop",
+          "authors": "Sungjoon Park, Suin Kim, Scott A. Hale, Sooyoung Kim, Jeongmin Byun and Alice Oh",
+          "title": "Multilingual Wikipedia: Editors of Primary Language Contribute to More Complex Articles",
+          "links": {
+            "PDF": "/public/research/ICWSM15/multilingual_wikipedia.pdf",
+            "Slides": "/public/research/ICWSM15/ICWSM2015-Poster.pdf"
+          },
+          "topics": ["css"]
+        },
+        {
+          "booktitle": "Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI 2015)",
+          "authors": "Jae Won Kim, Dongwoo Kim, Brian Keegan, Joon Hee Kim, Suin Kim and Alice Oh",
+          "links": {
+            "PDF": "/public/research/CHI2015/chi2015_worldcup.pdf"
+          },
+          "title": "Social Media Dynamics of Global Co-presence During the 2014 FIFA World Cup",
+          "topics": ["css"]
+        },
+        {
+          "booktitle": "The18th \nACM Conference on Computer-Supported Cooperative Work and Social \nComputing (CSCW 2015)",
+          "authors": "Bumsoo Kang, Sujin Lee, Seungwoo Kang, Junehwa Song, Inseok Hwang and Alice Oh",
+          "links": {
+            "PDF": "/public/research/CSCW15/cscw2015_bumsoo.pdf"
+          },
+          "title": "Towards Understanding Relational Orientation: Attachment \nTheory and Facebook Activities",
+          "topics": ["ml", "css"]
+        },
+        {
+          "booktitle": "International Conference on Empirical Methods in Natural Language Processing (EMNLP 2014), Doha, Qatar, 2014",
+          "authors": "JinYeong Bak, Chin-Yew Lin and Alice Oh",
+          "links": {
+            "Slides": "/public/research/EMNLP2014/EMNLP2014_Slides.pdf",
+            "PDF": "/public/research/EMNLP2014/emnlp2014_bak_lin_oh.pdf",
+            "Code and Data": "/public/research/EMNLP2014/"
+          },
+          "title": "Self-disclosure topic model for classifying and analyzing Twitter conversations",
+          "topics": ["ml", "css"]
+        },
+        {
+          "booktitle": "Workshop on Data Science for News Publishing (NewsKDD) at KDD 2014",
+          "authors": "Jooyeon Kim, Joon Hee Kim, Dongwoo Kim, Alice Oh",
+          "links": {
+            "Slides": "/public/research/KDD2014/newskdd.pdf",
+            "PDF": "/public/research/KDD2014/newskdd2014_submission_13.pdf"
+          },
+          "title": "Diversity-seeking Users and Their Influence on Social News Sites",
+          "topics": ["css"]
+        },
+        {
+          "booktitle": "Hypertext 2014, the 25th ACM Conference on Hypertext and Social Media (HT'14). (Short paper)",
+          "authors": "Suin Kim, Ingmar Weber, Li Wei and Alice Oh",
+          "links": {
+            "Slides": "/public/research/HT14/HT14.pdf",
+            "PDF": "/public/research/HT14/twitter_languages.pdf"
+          },
+          "title": "Sociolinguistic Analysis of Twitter in Multilingual Societies",
+          "topics": ["css"]
+        },
+        {
+          "booktitle": "Workshop on Social Dynamics and Personal Attributes in Social Media at the 52nd Annual Meeting of the Association for Computational Linguistics.",
+          "authors": "JinYeong Bak, Chin-Yew Lin and Alice Oh",
+          "links": {
+            "PDF": "/public/research/ACLJWSDPA14/ACLWorkshop_bak_lin_oh.pdf"
+          },
+          "title": "Self-disclosure topic model for Twitter conversations",
+          "topics": ["ml", "css"]
+        },
+        {
+          "booktitle": "The 31st International Conference on Machine Learning (ICML 2014), Beijing, China, 2014",
+          "authors": "Dongwoo Kim, Alice Oh",
+          "links": {
+            "Code": "/public/research/ICML14/hdsp.zip",
+            "PDF": "/public/research/ICML14/icml2014_kim.pdf",
+            "Appendix": "/public/research/ICML14/icml2014_kim_appendix.pdf"
+          },
+          "title": "Hierarchical Dirichlet Scaling Process",
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "The 23rd International World Wide Web Conference (WWW 2014) (2-page poster)",
+          "authors": "Yeooul Kim, Suin Kim, Alejandro Jaimes, Alice Oh",
+          "links": {
+            "PDF": "/public/research/WWW2014/www2014_yeooul.pdf"
+          },
+          "title": "A Computational Analysis of Agenda Setting",
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "The Twenty-Third International Conference on Aritifical Intelligence (IJCAI 2013)",
+          "authors": "Dongwoo Kim, Haixun Wang, Alice Oh",
+          "links": {
+            "PDF": "/public/research/IJCAI13/ijcai13_dongwoo_camera_ready.pdf",
+            "Bibtex": "/public/research/IJCAI13/context2013.txt"
+          },
+          "title": "Context-Dependent Conceptualization",
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "The Twenty-Seventh AAAI Conference on Artificial Intelligence (AAAI-13).",
+          "authors": "Suin Kim, Jianwen Zhang, Zheng Chen, Alice Oh, Shixia Liu",
+          "links": {
+            "Code": "/public/research/AAAI-13/HASM.zip",
+            "Poster": "/public/research/AAAI-13/HASM_Poster.pdf",
+            "Supplimentary": "/public/research/AAAI-13/HASM_techreport.pdf",
+            "Slides": "/public/research/AAAI-13/HASM_Jul15.pdf",
+            "Bibtex": "/public/research/AAAI-13/bibtex.txt",
+            "PDF": "/public/research/AAAI-13/6486-31246-1-PB.pdf"
+          },
+          "title": "A Hierarchical Aspect-Sentiment Model for Online Reviews",
+          "topics": ["ml", "css"]
+        },
+        {
+          "booktitle": "Workshop on Big Learning : Algorithms, Systems, and Tools at the Neural Information Processing Systems. 2012.",
+          "authors": "JinYeong Bak, Dongwoo Kim, Alice Oh",
+          "links": {
+            "Supplementary": "/public/research/NIPSBL12/nips2012_bak_kim_oh_supplementary.pdf",
+            "PDF": "/public/research/NIPSBL12/nips2012_bak_kim_oh.pdf",
+            "Code and Data": "/public/research/NIPSBL12/"
+          },
+          "title": "Distributed Online Learning for Latent Dirichlet Allocation",
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "The 21st ACM International Conference on Information and Knowledge Management (CIKM 2012).",
+          "authors": "Joon Hee Kim, Dongwoo Kim, Suin Kim, Alice Oh",
+          "links": {
+            "Slides": "/public/research/CIKM12/cikm2012slide.pdf",
+            "PDF": "/public/research/CIKM12/cikm2012.pdf",
+            "Code": "https://github.com/neckercube/rCRP"
+          },
+          "title": "Modeling Topic Hierarchies with the Recursive Chinese Restaurant Process",
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "The 29th International\nConference on Machine Learning (ICML 2012).",
+          "authors": "Dongwoo Kim, Suin Kim, Alice Oh",
+          "links": {
+            "Slides": "/public/research/ICML11/dongwoo_icml2012_slides.pdf",
+            "PDF": "/public/research/ICML11/dongwoo_icml2012_final_submission.pdf",
+            "Bibtex": "/members/dongwoo/bibtex/kim2012icml.txt",
+            "Poster": "/public/research/ICML11/20120619-ICML-Poster.pdf"
+          },
+          "title": "Dirichlet Process with Mixed Random Measures: A Nonparametric Topic Model for Labeled Data",
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "The 50th Annual Meeting of the Association for Computational Linguistics (ACL 2012). (Short paper)",
+          "authors": "JinYeong Bak, Suin Kim, Alice Oh",
+          "links": {
+            "Slides": "/public/research/ACL2012/ACL2012_bak_kim_oh_slides.pdf",
+            "PDF": "/public/research/ACL2012/ACL2012_bak_kim_oh.pdf",
+            "Bibtex": "/public/research/ACL2012/ACL2012_bak_kim_oh_bibtex.txt"
+          },
+          "title": "Self-Disclosure and Relationship Strength in Twitter Conversations"
+        },
+        {
+          "booktitle": "ACM SIGWEB Newsletter Issue Autumn, Autumn 2012",
+          "authors": "Suin Kim, JinYeong Bak, Alice Oh",
+          "links": {
+            "PDF": "http://dl.acm.org/citation.cfm?id=2362634"
+          },
+          "title": "Discovering emotion influence patterns in online social network conversations",
+          "topics": ["css"]
+        },
+        {
+          "booktitle": "The 6th International AAAI Conference on Weblogs and Social Media (ICWSM 2012). 2012. (4-page poster)",
+          "authors": "Suin Kim, JinYeong Bak, Alice Oh",
+          "links": {
+            "PDF": "/public/research/ICWSM12/ICWSM12-088.pdf",
+            "4-Page Poster": "/public/research/NIPSCSS11/nips2011_kim_bak_jo_oh.pdf",
+            "Poster for 4-page paper": "/public/research/NIPSCSS11/nips_poster_pdf.pdf",
+            "Data": "/public/research/ICWSM12/data.csv"
+          },
+          "title": "Do you feel what I feel? Social Aspects of Emotions in Twitter Conversations",
+          "topics": ["css"]
+        },
+        {
+          "booktitle": "20th ACM Conference on Information and Knowledge Managment (CIKM 2011).",
+          "authors": "Dongwoo Kim, Alice Oh",
+          "links": {
+            "Slides": "/public/research/CIKM11/CIKM-slide.pdf",
+            "PDF": "/public/research/CIKM11/cikm2011_dongwoo_alice.pdf",
+            "Bibtex": "/members/dongwoo/bibtex/kim2011cikm.txt"
+          },
+          "title": "Accounting for Data Dependencies within a Hierarchical Dirichlet Process Mixture Model",
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "12th International Conference on Intelligent Text Processing and Computational Linguistics (CICLING 2011)",
+          "authors": "Dongwoo Kim, Alice Oh",
+          "links": {
+            "Slides": "/public/research/CICLING2011/cicling2011.pdf",
+            "PDF": "/public/research/CICLING2011/paper.pdf",
+            "Bibtex": "/members/dongwoo/bibtex/kim2011cicling.txt"
+          },
+          "title": "Topic Chains for Understanding a News Corpus",
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "ACM International Conference on Web Search and Data Mining (WSDM 2011). 2011.",
+          "authors": "Yohan Jo, Alice Oh",
+          "links": {
+            "Web": "http://web.uilab.kr/research/files/WSDM11",
+            "Code": "http://web.uilab.kr/research/files/WSDM11/ASUM.zip",
+            "Bibtex": "http://web.uilab.kr/research/files/WSDM11/citation.bib",
+            "PDF": "http://web.uilab.kr/research/files/WSDM11/wsdm400-jo.pdf",
+            "Amazon Data": "http://web.uilab.kr/research/files/WSDM11/Amazon.zip",
+            "Yelp Data": "http://web.uilab.kr/research/files/WSDM11/Yelp.zip"
+          },
+          "title": "Aspect and Sentiment Unification Model for Online Review Analysis",
+          "topics": ["ml"]
+        },
+        {
+          "booktitle": "16Th International Conference on Virtual Systems and Multimedia (Best Paper Award)",
+          "authors": "Wonjun Lee, Sunjun Kim, Youn-kyung Lim, Alice Oh, Tek-jin Nam, Kee-Eung Kim",
+          "links": {
+            "PDF": "/public/research/VSMM2010/Lee_Kim_Lim_Oh_Nam_Kim-2010VSMM.pdf"
+          },
+          "title": "A Rapid Prototyping Method for Discovering User-Driven Opportunities for Personal Informatics",
+          "topics": []
+        },
+        {
+          "booktitle": "Workshop on Finding Synergies Between Texts and Networks at the IEEE International Conference On Social Computing(SocialCom 2010). 2010.",
+          "authors": "Il-Chul Moon, Dongwoo Kim, Yohan Jo, Alice Oh",
+          "links": {
+            "PDF": "/public/research/SocialCom10/Learning Influence Propagation of Personal-2010-Moon.pdf"
+          },
+          "title": "Learning Influence Propagation of Personal Blogs with Content and Analysis",
+          "topics": []
+        },
+        {
+          "booktitle": "ACM International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI). 2010. (Poster)",
+          "authors": "Trung Nguyen and Alice Oh",
+          "links": {
+            "PDF": "/public/research/MobileHCI10/Users' needs for social tagging-2010-Nguyen.pdf"
+          },
+          "title": "Users' Needs for Social Tagging and Sharing on Mobile Contacts",
+          "topics": ["css"]
+        },
+        {
+          "booktitle": "Workshop on Microblogging at the ACM Conference on Human Factors in Computer Systems (CHI 2010). 2010.",
+          "authors": "Dongwoo Kim, Yohan Jo, Il-Chul Moon, and Alice Oh",
+          "links": {
+            "PDF": "/public/research/CHI10-Twitter/Analysis of Twitter Lists as--Kim.pdf",
+            "Long version": "/public/research/CHI10-Twitter/dwkim_long_version.pdf"
+          },
+          "title": "Analysis of Twitter Lists as a Potential Source for Discovering Latent Characteristics of Users",
+          "topics": ["css"]
+        },
+        {
+          "booktitle": "Workshop on Know Thyself at the ACM Conference on Human Factors in Computer Systems (CHI 2010). 2010.",
+          "links": {
+            "PDF": "/public/research/CHI10-Lifecare/Personal Informatics for Discovering Human-centered--Lim.pdf"
+          },
+          "authors": "Younkyung Lim, Alice Oh, Tekjin Nam, and Kee-Eung Kim",
+          "title": "Personal Informatics for Discovering Human-Centered Lifecare System Opportunities",
+          "topics": ["css"]
+        },
+        {
+          "booktitle": "Work in Progress at the ACM Conference on Human Factors in Computer Systems (CHI 2010). 2010.",
+          "authors": "Sunjun Kim, and Alice Oh",
+          "links": {
+            "PDF": "/public/research/CHI10-iLight/iLight information flashlight on objects-2010-Kim.pdf"
+          },
+          "title": "iLight: Information flashLight on Objects using Handheld Projector",
+          "topics": []
+        },
+        {
+          "booktitle": "Proceedings of IEEE SocialCom Symposium on Social Computing Applications. 2009.",
+          "authors": "Il-Chul Moon, Youngmin Kim, Hyunjong Lee, and Alice Oh",
+          "links": {
+            "PDF": "/public/research/SocialCom09/SocialCom-2009-paper-draft-ver-8.pdf",
+            "Poster": "/public/research/SocialCom09/SocialCom-2009-presentation-ver-1.pdf"
+          },
+          "title": "Temporal Issue Trend Identifications in Blogs",
+          "topics": ["css"]
+        },
+        {
+          "booktitle": "Proceedings of AAAI International Conference on Weblogs and Social Media. 2009. (Short Paper)",
+          "authors": "Alice Oh, Hyunjong Lee, and Youngmin Kim",
+          "links": {
+            "PDF": "/public/research/ICWSM09/User Evaluation of a System-2009-Oh.pdf"
+          },
+          "title": "User Evaluation of a System for Classifying and Displaying Political Viewpoints of Weblogs",
+          "topics": ["css"]
+        }
+      ],
+      "title": "Publications"
+    },
+    {
+      "researches": [
+        {
+          "booktitle": "arXiv, 2015",
+          "authors": "Suin Kim, Sungjoon Park, Scott A. Hale, Sooyoung Kim, Jeongmin Byun, and Alice Oh",
+          "title": "Understanding Editing Behaviors in Multilingual Wikipedia",
+          "links": {
+            "PDF": "http://arxiv.org/abs/1508.07266",
+            "Web and Data": "http://web.uilab.kr/research/files/PLOSONE2016"
+          }
+        },
+        {
+          "booktitle": "Arxiv, 2012",
+          "authors": "Bonggun Shin, Alice Oh",
+          "links": {
+            "PDF": "http://arxiv.org/abs/1212.4347"
+          },
+          "title": "Bayesian Group Nonnegative Matrix Factorization for EEG Analysis"
+        },
+        {
+          "booktitle": "Arxiv, 2012",
+          "authors": "Trung V. Nguyen, Alice Oh",
+          "links": {
+            "PDF": "http://arxiv.org/abs/1211.4929"
+          },
+          "title": "Summarizing Reviews with Variable-length Syntactic Patterns and Topic Models"
+        },
+        {
+          "booktitle": "Arxiv, 2012",
+          "authors": "Dongwoo Kim, Yeonseung Chung, Alice Oh",
+          "links": {
+            "PDF": "http://arxiv.org/abs/1205.1053"
+          },
+          "title": "Variable Selection for Latent Dirichlet Allocation"
+        }
+      ],
+      "title": " Manuscripts "
+    },
+    {
+      "researches": [
+        {
+          "booktitle": "The 30th Annual International Sunbelt Social Network Conference, Trento, Italy, Jun 29-Jul 4, 2010",
+          "authors": "Il-Chul Moon, Dongwoo Kim, Yohan Jo, and Alice H. Oh",
+          "links": {},
+          "title": "Learning Influence Propagation on Personal Blogs"
+        }
+      ],
+      "title": "Presentations"
+    },
+    {
+      "researches": [
+        {
+          "booktitle": "Il-Chul Moon, Yohan Jo, Dongwoo Kim, and Alice H. Oh",
+          "authors": "TONK (Text tO NetworK)",
+          "links": {
+            "Manual": "http://web.uilab.kr/research/files/TONK/TONK_Manual.pdf",
+            "Software": "http://web.uilab.kr/research/files/TONK/TONK_windows-x64_1_0_1.exe"
+          },
+          "title": ""
+        }
+      ],
+      "title": "Software"
+    }
+  ]
+}

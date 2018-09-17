@@ -1,0 +1,67 @@
+[
+  {
+    "keywords":[
+      "ACM Special Interest Group on Computer-Human Interaction",
+      "Association for Computational Linguistics",
+      "ACM Special Interest Group on Information Retrieval",
+      "Association for the Advancement of Artificial Intelligence",
+      "Conference on Neural Information Processing Systems",
+      "ACM Special Interest Group on Knowledge Discovery and Data Mining",
+      "International Conference on Web and Social Media",
+      "International Conference on Machine Learning",
+      "International Joint Conference on Artificial Intelligence",
+      "International Conference on Computer Vision",
+      "Association for Uncertainty in Artificial Intelligence",
+      "ACM Conference on Computer-Supported Cooperative Work and Social Computing",
+      "ACM Symposium on User Interface Software and Technology",
+      "ACM Conference on Learning at Scale"
+    ],
+    "title":"Conferences"
+  },
+  {
+    "links":[
+      [
+        "Journal of Artificial Intelligence Research",
+        "http://www.jair.org"
+      ],
+      [
+        "Journal of Machine Learning Research",
+        "http://jmlr.csail.mit.edu/"
+      ],
+      [
+        "Artificial Intelligence",
+        "http://www.elsevier.com/wps/find/journaldescription.cws_home/505601/description#description"
+      ],
+      [
+        "Journal of the ACM",
+        "http://jacm.acm.org/"
+      ],
+      [
+        "Machine Learning",
+        "http://www.springer.com/computer/ai/journal/10994"
+      ]
+    ],
+    "title":"Journals"
+  },
+  {
+    "links":[
+      [
+        "ACL Anthology",
+        "http://aclweb.org/anthology-new/"
+      ],
+      [
+        "Machine Learning Summer Schools",
+        "http://www.mlss.cc"
+      ],
+      [
+        "Computational Models and Social Network Tools (CASOS, CMU)",
+        "http://www.casos.cs.cmu.edu/computational_tools/tools.html"
+      ],
+      [
+        "LingPipe",
+        "http://alias-i.com/lingpipe/"
+      ]
+    ],
+    "title":"Resources"
+  }
+]

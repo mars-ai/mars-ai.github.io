@@ -1,0 +1,14 @@
+.c-member-group {
+  padding: 5px 0;
+
+  &__title {
+    padding: 5px 0;
+    font-size: 18px;
+    color: color('black');
+    font-weight: $bold;
+  }
+
+  &__members {
+    padding: 10px 0;
+  }
+}
