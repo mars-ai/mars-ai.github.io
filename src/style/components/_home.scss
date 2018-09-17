@@ -1,5 +1,17 @@
 
 .c-home {
+  &__section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    &:nth-child(even) {
+      background-color: color('white');
+    }
+
+    &:nth-child(odd) {
+      background-color: color('light-white');
+    }
+  }
 }
 
 // .content .home h2 {

@@ -19,7 +19,7 @@ export default class Footer extends Component {
                 href="https://github.com/mars-ai/mars-ai.github.io"
                 target="_blank"
               >
-                Admin
+                관리자
               </a>
             </div>
           </div>
