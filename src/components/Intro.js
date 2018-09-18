@@ -26,7 +26,8 @@ const CONTENT = [
 export default class Intro extends Component {
   renderCard(card) {
     return (
-      <div 
+      <div
+        key={card.title}
         className="c-intro__card"
         style={{ backgroundColor: card.color }}
       >
@@ -39,7 +40,7 @@ export default class Intro extends Component {
       </div>
     );
   }
-  
+
   render() {
     return (
       <div className="c-intro">

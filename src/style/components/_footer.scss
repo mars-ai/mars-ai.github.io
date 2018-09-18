@@ -10,9 +10,15 @@
     overflow: hidden;
   }
 
-  &__contact {
+  &__text {
     float: left;
-    line-height: 1.4em;
+    line-height: 1.8em;
+  }
+
+  &__text-title {
+    display: block;
+    padding-bottom: 12px;
+    font-weight: $bold;
   }
 
   &__links {

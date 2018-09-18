@@ -7,9 +7,12 @@ export default class Footer extends Component {
       <footer className="c-footer">
         <div className="u-width-container">
           <div className="c-footer__body">
-            <div className="c-footer__contact">
-              <strong>이메일</strong> ses75@kaist.ac.kr<br />
-              <strong>전화번호</strong> (+82)042 350 8485<br />
+            <div className="c-footer__text">
+              <div className="c-footer__text-title">
+                Contact
+              </div>
+              이메일 ses75@kaist.ac.kr<br />
+              전화번호 (+82)042 350 8485<br />
               34141 대전광역시 유성구 대학로 291 한국과학기술원 전산학부 E3-1 4401호<br />
               MARS 인공지능 통합 연구센터 신은순 앞<br />
             </div>

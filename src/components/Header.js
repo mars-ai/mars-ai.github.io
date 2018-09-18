@@ -27,12 +27,17 @@ export default class Header extends Component {
   };
 
   scrollToTop = () => {
-    $('html, body').animate(
-      {
-        scrollTop: 0,
-      },
-      300
-    );
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  scrollTo = className => {
+    document.querySelector(`.${className}`).scrollIntoView({
+      behavior: 'smooth'
+    });
   };
 
   render() {
@@ -49,35 +54,39 @@ export default class Header extends Component {
             <div className="c-header__title-logo">
               <img src="/public/images/logo.png" />
             </div>
-            <div className="c-header__title-text">
+            <a 
+              className="c-header__title-text"
+              href="/"
+            >
               MARS AI Research
-            </div>
+            </a>
           </div>
           <div className="c-header__menu">
-            <Link
+            <a
               className="c-header__menu-item"
-              to="/"
+              onClick={this.scrollToTop}
             >
               Home
-            </Link> 
-            <Link
+            </a> 
+            <a
               className="c-header__menu-item"
               to="/members"
+              onClick={() => this.scrollTo('c-publication')}
             >
               Publication
-            </Link>
-            <Link
+            </a>
+            <a
               className="c-header__menu-item"
-              to="/research"
+              onClick={() => this.scrollTo('c-people')}
             >
               People
-            </Link>
-            <Link
+            </a>
+            <a
               className="c-header__menu-item"
-              to="/contact"
+              onClick={() => this.scrollTo('c-footer')}
             >
               Contact
-            </Link>
+            </a>
           </div>
         </div>
       </header>

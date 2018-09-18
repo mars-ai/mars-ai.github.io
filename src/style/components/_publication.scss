@@ -1,0 +1,36 @@
+.c-publication {
+  &__items {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  &__item {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  &__item-title {
+    padding-bottom: 8px;
+    display: block;
+    font-size: 14px;
+    font-weight: $regular;
+    color: color('black');
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__item-authors {
+    padding-bottom: 4px;
+    font-size: 12px;
+    color: color('grey');
+  }
+
+  &__item-booktitle {
+    padding-bottom: 4px;
+    font-size: 12px;
+    font-style: italic;
+    color: color('grey');
+  }
+}

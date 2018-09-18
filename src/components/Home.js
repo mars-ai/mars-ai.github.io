@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 // import { Link } from 'react-router-dom';
 import SubHeader from './SubHeader';
 import Intro from './Intro';
+import Publication from './Publication';
+import People from './People';
 // import DataLoader from './DataLoader'
 // import ResearchWork from './ResearchWork';
 
@@ -13,6 +15,12 @@ class Home extends Component {
         <SubHeader />
         <div className="c-home__section">
           <Intro />
+        </div>
+        <div className="c-home__section">
+          <Publication />
+        </div>
+        <div className="c-home__section">
+          <People />
         </div>
       </div>
     );
