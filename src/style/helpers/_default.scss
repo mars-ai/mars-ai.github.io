@@ -6,6 +6,7 @@
 body {
   font-family: $font-stack;
   font-weight: $light;
+  word-break: keep-all;
 }
 
 a {
