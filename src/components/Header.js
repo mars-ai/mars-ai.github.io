@@ -73,7 +73,7 @@ export default class Header extends Component {
               to="/members"
               onClick={() => this.scrollTo('c-publication')}
             >
-              Publication
+              Publications
             </a>
             <a
               className="c-header__menu-item"

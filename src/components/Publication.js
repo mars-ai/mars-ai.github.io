@@ -1,36 +1,23 @@
 import React, { Component } from 'react'
+import DataLoader from './DataLoader';
+import config from '../../config.json';
 
-const CONTENT = [
-  {
-    "booktitle": "To appear in Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018)",
-    "authors": "Yeon Seonwoo, Sungjoon Park, and Alice Oh",
-    "title": "Hierarchical Dirichlet Gaussian Marked Hawkes Process for Narrative Reconstruction in Continuous Time Domain",
-    "link": "/public/research/UIST2018/uist2018_park.pdf",
-    "group": "U&I Lab.",
-    "year": 2018,
-    "ack": true,
-  },
-  {
-    "booktitle": "To appear in Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018)",
-    "authors": "JinYeong Bak, and Alice Oh",
-    "title": "Conversational Decision Making Model for Predicting King’s Decision in the Annals of the Joseon Dynasty",
-    "link": "/public/research/UIST2018/uist2018_park.pdf",
-    "group": "U&I Lab.",
-    "year": 2018,
-    "ack": true,
-  },
-  {
-    "booktitle": "To appear in Proceedings of the 31th Annual ACM Symposium on User Interface Software & Technology (UIST 2018)",
-    "authors": "Jungkook Park, Yeong Hoon Park, and Alice Oh",
-    "title": "Non-Linear Editing of Text-Based Screencasts",
-    "link": "/public/research/UIST2018/uist2018_park.pdf",
-    "group": "U&I Lab.",
-    "year": 2018,
-    "ack": true,
-  },
-];
+const DATA_URL = `https://sheets.googleapis.com/v4/spreadsheets/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/values/Publications!A2:G?key=${config.googleApiKey}`;
 
-export default class Publication extends Component {
+class Publication extends Component {
+  getPublications() {
+    const { data } = this.props;
+    return data.values.map(row => ({
+      title: row[0],
+      authors: row[1],
+      booktitle: row[2],
+      year: row[3],
+      link: row[4],
+      group: row[5],
+      ack: row[6],
+    }))
+  }
+
   renderPublication(publication) {
     return (
       <div
@@ -64,10 +51,20 @@ export default class Publication extends Component {
             MARS AI 센터에서는 다음과 같은 연구 결과가 출판되었습니다.
           </div>
           <div className="c-publication__items">
-            {CONTENT.map(this.renderPublication)}
+            {this.getPublications().map(this.renderPublication)}
           </div>
         </div>
       </div>
     );
   }
 }
+
+export default (...props) => {
+  return (
+    <DataLoader json={DATA_URL}>
+      <Publication {...props} />
+    </DataLoader>
+  );
+};
+
+

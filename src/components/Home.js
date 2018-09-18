@@ -27,6 +27,8 @@ class Home extends Component {
   }
 }
 
+// https://sheets.googleapis.com/v4/spreadsheets/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/values/Main!A1:G?key=AIzaSyB9V7PkWIqFbGxchz4m7tkKf7z5aieCoPM
+
 export default (...props) => {
   return (
     // <DataLoader json={DATA_URL}>

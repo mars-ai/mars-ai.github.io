@@ -1,79 +1,21 @@
 import React, { Component } from 'react'
+import DataLoader from './DataLoader';
+import config from '../../config.json';
 
-const CONTENT = [
-  {
-    "image": "http://uilab.kr/public/images/members/aliceoh.jpg",
-    "name": "오혜연",
-    "title": "책임연구원",
-    "link": "https://aliceoh9.github.io/",
-    "group": "U&I Lab.",
-  },
-  {
-    "image": "http://uilab.kr/public/images/members/aliceoh.jpg",
-    "name": "오혜연2",
-    "title": "책임연구원",
-    "link": "https://aliceoh9.github.io/",
-    "group": "U&I Lab.",
-  },
-  {
-    "image": "http://uilab.kr/public/images/members/aliceoh.jpg",
-    "name": "오혜연3",
-    "title": "책임연구원",
-    "link": "https://aliceoh9.github.io/",
-    "group": "U&I Lab.",
-  },
-  {
-    "image": "http://uilab.kr/public/images/members/aliceoh.jpg",
-    "name": "오혜연4",
-    "title": "책임연구원",
-    "link": "https://aliceoh9.github.io/",
-    "group": "U&I Lab.",
-  },
-  {
-    "image": "http://uilab.kr/public/images/members/aliceoh.jpg",
-    "name": "오혜연5",
-    "title": "책임연구원",
-    "link": "https://aliceoh9.github.io/",
-    "group": "U&I Lab.",
-  },
-  {
-    "image": "http://uilab.kr/public/images/members/aliceoh.jpg",
-    "name": "오혜연6",
-    "title": "책임연구원",
-    "link": "https://aliceoh9.github.io/",
-    "group": "U&I Lab.",
-  },
-  {
-    "image": "http://uilab.kr/public/images/members/aliceoh.jpg",
-    "name": "오혜연7",
-    "title": "책임연구원",
-    "link": "https://aliceoh9.github.io/",
-    "group": "U&I Lab.",
-  },
-  {
-    "image": "http://uilab.kr/public/images/members/aliceoh.jpg",
-    "name": "오혜연8",
-    "title": "책임연구원",
-    "link": "https://aliceoh9.github.io/",
-    "group": "U&I Lab.",
-  },
-  {
-    "image": "http://uilab.kr/public/images/members/aliceoh.jpg",
-    "name": "오혜연9",
-    "title": "책임연구원",
-    "link": "https://aliceoh9.github.io/",
-    "group": "U&I Lab.",
-  },
-  {
-    "image": "http://uilab.kr/public/images/members/aliceoh.jpg",
-    "name": "오혜연10",
-    "title": "책임연구원",
-    "link": "https://aliceoh9.github.io/",
-    "group": "U&I Lab.",
-  },
-];
+const DATA_URL = `https://sheets.googleapis.com/v4/spreadsheets/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/values/People!A2:G?key=${config.googleApiKey}`;
 
-export default class People extends Component {
+class People extends Component {
+  getPeople() {
+    const { data } = this.props;
+    return data.values.map(row => ({
+      image: row[0],
+      name: row[1],
+      title: row[2],
+      link: row[3],
+      group: row[4],
+    }))
+  }
+
   renderCard(card) {
     return (
       <a
@@ -109,10 +51,20 @@ export default class People extends Component {
             MARS AI 센터 소속 연구원은 다음과 같습니다.
           </div>
           <div className="c-people__cards">
-            {CONTENT.map(this.renderCard)}
+            {this.getPeople().map(this.renderCard)}
           </div>
         </div>
       </div>
     );
   }
 }
+
+export default (...props) => {
+  return (
+    <DataLoader json={DATA_URL}>
+      <People {...props} />
+    </DataLoader>
+  );
+};
+
+
