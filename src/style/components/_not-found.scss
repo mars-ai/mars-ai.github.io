@@ -1,15 +1,18 @@
 
 .c-not-found {
+  background-color: color('blue');
+  padding: 120px 100px;
+
   &__title {
     padding: 10px 0;
     font-size: 18px;
-    color: color('black');
+    color: color('white');
     font-weight: $bold;
   }
 
   &__body {
     font-size: 14px;
-    color: color('dark-grey');
+    color: color('light-grey');
   }
 
   &__icon {
