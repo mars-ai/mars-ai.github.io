@@ -8,7 +8,7 @@ class People extends Component {
   getPeople() {
     const { data } = this.props;
     return data.values.map(row => ({
-      image: row[0],
+      image: row[0] || "/public/images/blank-profile.png",
       name: row[1],
       title: row[2],
       link: row[3],
