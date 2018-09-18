@@ -1,6 +1,8 @@
 .c-sub-header {
   padding: 10px+50px 0 30px 0;
-  background-color: color('blue');
+  background: linear-gradient(135deg, color('black') 22px, color('dark-grey') 22px, color('dark-grey') 23px, transparent 23px, transparent 67px, color('dark-grey') 67px, color('dark-grey') 68px, transparent 68px), linear-gradient(225deg, color('black') 22px, color('dark-grey') 22px, color('dark-grey') 23px, transparent 23px, transparent 67px, color('dark-grey') 67px, color('dark-grey') 68px, transparent 68px)0 64px;
+  background-color: color('black');
+  background-size: 64px 128px;
   color: color('white');
 
   &__title {
