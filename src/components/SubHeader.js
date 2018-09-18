@@ -9,7 +9,7 @@ export default class SubHeader extends Component {
       <div className="c-sub-header">
         <div className="u-width-container">
           <div className="c-sub-header__title">
-            MARS Artificial Intelligence Research
+            Center for MARS Artificial Intelligence Research
           </div>
           <div className="c-sub-header__sub-title">
             MARS 인공지능 통합연구센터는 <br />
