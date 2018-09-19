@@ -80,3 +80,9 @@
   font-size: 14px;
   color: color('dark-grey');
 }
+
+@media (max-width: 768px) {
+  .u-section-title {
+    font-size: 26px;
+  }
+}

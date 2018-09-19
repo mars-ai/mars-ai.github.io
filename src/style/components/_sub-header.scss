@@ -6,13 +6,29 @@
   color: color('white');
 
   &__title {
+    padding: 12px 0;
     font-size: 44px;
     font-weight: $bold;
-    line-height: 2em;
+    line-height: 1.6em;
   }
 
   &__sub-title {
     font-size: 26px;
     line-height: 1.2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .c-sub-header {
+    &__title {
+      font-size: 28px;
+      line-height: 1.4em;
+    }
+
+    &__sub-title {
+      padding-top: 12px;
+      font-size: 20px;
+      line-height: 1.2em;
+    }
   }
 }

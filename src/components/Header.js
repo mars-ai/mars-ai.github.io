@@ -60,6 +60,12 @@ export default class Header extends Component {
             >
               MARS AI Research
             </a>
+            <a
+              className="c-header__title-text--mobile"
+              href="/"
+            >
+              MARS AI Research
+            </a>
           </div>
           <div className="c-header__menu">
             <a
