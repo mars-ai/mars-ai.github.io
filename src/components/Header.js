@@ -42,11 +42,13 @@ export default class Header extends Component {
 
   render() {
     const { isScrolled } = this.state;
+    const { isDocumentHeader } = this.props;
+    console.log('id',isDocumentHeader);
     return (
       <header 
         className={classnames(
           'c-header',
-          { 'c-header--scrolled': isScrolled }
+          { 'c-header--scrolled': isScrolled || isDocumentHeader }
         )}
       >
         <div className="c-header__content u-width-container">
@@ -67,7 +69,12 @@ export default class Header extends Component {
               MARS AI Research
             </a>
           </div>
-          <div className="c-header__menu">
+          <div 
+            className={classnames(
+              'c-header__menu',
+              { 'u-no-display': isDocumentHeader }
+            )}
+          >
             <a
               className="c-header__menu-item"
               onClick={this.scrollToTop}

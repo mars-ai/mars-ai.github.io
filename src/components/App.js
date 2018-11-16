@@ -4,7 +4,6 @@ import Document from './Document';
 import Footer from './Footer';
 import Header from './Header';
 import Home from './Home';
-import NotFound from './NotFound';
 import LocationTracker from './LocationTracker';
 
 export default class App extends Component {
@@ -12,7 +11,14 @@ export default class App extends Component {
     return (
       <div className="c-app">
         <LocationTracker location={this.props.location} />
-        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Header />
+          </Route>
+          <Route path="*">
+            <Header isDocumentHeader />
+          </Route>
+        </Switch>
         <div className="c-app__body">
           <Switch>
             <Route exact path="/" component={Home} />

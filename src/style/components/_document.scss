@@ -3,13 +3,4 @@
     position: relative;
     padding: 20px+$header-height 0 20px 0;
     z-index: 100;
-
-    &__header-background {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: $header-height;
-        background-color: #222222;
-    }
 }

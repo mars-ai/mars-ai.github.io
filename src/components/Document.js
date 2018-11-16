@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Markdown from 'react-markdown';
 import DataLoader from './DataLoader';
+import NotFound from './NotFound';
 import config from '../../config.json';
 
 const DATA_URL = `https://sheets.googleapis.com/v4/spreadsheets/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/values/Documents!A2:G?key=${config.googleApiKey}`;
@@ -18,16 +19,17 @@ class Document extends Component {
 
     render() {
         const { location } = this.props;
-        return (
+        const content = this.getDocument(location.pathname);
+
+        return content ? (
             <div className="c-document">
-                <div className="c-document__header-background" />
                 <div className="u-width-container">
                     <div className="markdown-body">
-                        <Markdown source={this.getDocument(location.pathname)} />
+                        <Markdown source={content} />
                     </div>
                 </div>
             </div>
-        );
+        ) : <NotFound />;
     }
 }
 
