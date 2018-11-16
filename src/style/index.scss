@@ -5,9 +5,11 @@
 @import "helpers/colors";
 @import "helpers/default";
 @import "helpers/utilities";
+@import "helpers/markdown";
 
 @import "components/app";
 @import "components/contact";
+@import "components/document";
 @import "components/data-loader";
 @import "components/footer";
 @import "components/header";

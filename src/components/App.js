@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { Link, Route, Switch } from 'react-router-dom';
-// import Contact from './Contact';
+import Document from './Document';
 import Footer from './Footer';
 import Header from './Header';
 import Home from './Home';
 import NotFound from './NotFound';
-// import Research from './Research';
 import LocationTracker from './LocationTracker';
 
 export default class App extends Component {
@@ -17,9 +16,7 @@ export default class App extends Component {
         <div className="c-app__body">
           <Switch>
             <Route exact path="/" component={Home} />
-            {/* <Route path="/research" component={Research} />
-            <Route path="/contact" component={Contact} /> */}
-            <Route path="*" component={NotFound} />
+            <Route path="*" component={Document} />
           </Switch>
         </div>
         <Footer />

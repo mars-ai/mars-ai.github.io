@@ -8,6 +8,7 @@
   height: $header-height;
   transition: all 0.8s ease;
   color: color('light-transparent-white');
+  z-index: 900;
 
   &--scrolled {
     background-color: color('white');
