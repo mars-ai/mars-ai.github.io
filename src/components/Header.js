@@ -43,7 +43,6 @@ export default class Header extends Component {
   render() {
     const { isScrolled } = this.state;
     const { isDocumentHeader } = this.props;
-    console.log('id',isDocumentHeader);
     return (
       <header 
         className={classnames(
