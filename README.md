@@ -8,7 +8,11 @@ ask Dongkwan Kim(dongkwan.kim@kaist.ac.kr) to invite you to this organization.
 
 ### Edit Publications & People Section
 
-To edit **Publications** and **People** section, please edit [this Google Sheet document](https://docs.google.com/spreadsheets/d/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/edit?usp=sharing). The content of this file is directly synchronized to this homepage. If you need edit permission for this repository, please ask Dongkwan Kim(dongkwan.kim@kaist.ac.kr).
+To edit **Publications** and **People** section, please edit Publications and People sheet of [this Google Sheet document](https://docs.google.com/spreadsheets/d/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/edit?usp=sharing). The content of this file is directly synchronized to this homepage. If you need edit permission for this repository, please ask Dongkwan Kim(dongkwan.kim@kaist.ac.kr).
+
+### Add & Edit Custom Markdown-based Webpage
+
+To add and edit custom markdown-based webpages, Please edit Documents sheet of [this Google Sheet document](https://docs.google.com/spreadsheets/d/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/edit?usp=sharing). The content of this file is directly synchronized to this homepage. Make sure you start the **path** value with `/`. e.g. `/nips2018`.
 
 ### Set up
 
