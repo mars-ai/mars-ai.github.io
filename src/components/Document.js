@@ -3,6 +3,7 @@ import Markdown from 'react-markdown';
 import DataLoader from './DataLoader';
 import NotFound from './NotFound';
 import config from '../../config.json';
+import { Redirect } from 'react-router-dom';
 
 const DATA_URL = `https://sheets.googleapis.com/v4/spreadsheets/1fNsyhX-Ra-L9AEQ8uqEkyyCzdf7Erm66TFiyqcGOJL0/values/Documents!A2:G?key=${config.googleApiKey}`;
 
@@ -10,8 +11,11 @@ class Document extends Component {
     getDocument(path) {
         const { data } = this.props;
         const rows = data.values.filter(row => row[0] === path);
+        let docInfos = {};
         if (rows.length > 0) {
-            return rows[0][1];
+            docInfos.type = rows[0][1];
+            docInfos.document = rows[0][2];
+            return docInfos;
         } else {
             return null;
         }
@@ -19,17 +23,24 @@ class Document extends Component {
 
     render() {
         const { location } = this.props;
-        const content = this.getDocument(location.pathname);
-
-        return content ? (
-            <div className="c-document">
-                <div className="u-width-container">
-                    <div className="markdown-body">
-                        <Markdown source={content} />
+        const docInfos = this.getDocument(location.pathname);
+        if (!docInfos) {
+            return <NotFound />
+        } else if (docInfos.type == "redirect") {
+            return <Redirect to={docInfos.document} />
+        } else if (docInfos.type == "markdown") {
+            return (
+                <div className="c-document">
+                    <div className="u-width-container">
+                        <div className="markdown-body">
+                            <Markdown source={docInfos.document} />
+                        </div>
                     </div>
                 </div>
-            </div>
-        ) : <NotFound />;
+            );
+        } else {
+            return <NotFound />
+        }
     }
 }
 
