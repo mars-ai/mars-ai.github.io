@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import SubHeader from './SubHeader';
 import Intro from './Intro';
 import Publication from './Publication';
+import SubPage from './SubPage';
 import People from './People';
 // import DataLoader from './DataLoader'
 // import ResearchWork from './ResearchWork';
@@ -21,6 +22,9 @@ class Home extends Component {
         </div>
         <div className="c-home__section">
           <People />
+        </div>
+        <div className="c-home__section">
+          <SubPage />
         </div>
       </div>
     );

@@ -95,6 +95,12 @@ export default class Header extends Component {
             </a>
             <a
               className="c-header__menu-item"
+              onClick={() => this.scrollTo('c-sub-page')}
+            >
+              Events
+            </a>
+            <a
+              className="c-header__menu-item"
               onClick={() => this.scrollTo('c-footer')}
             >
               Contact
