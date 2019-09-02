@@ -15,7 +15,9 @@ class Publication extends Component {
       link: row[4],
       group: row[5],
       ack: row[6],
-    }))
+    })).sort((a, b) => {
+        return b.year - a.year;
+    })
   }
 
   renderPublication(publication) {
